@@ -1,0 +1,66 @@
+body {
+    background: white;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.work__sheet {
+    display: block;
+    background: #d0d0d0;
+    width: 85%;
+    height: 85%;
+    /* justify-content: right; */
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.work__cons {
+    margin-top: 25px;
+    width: 100%;
+    max-width: 1000px;
+    height: 150px;
+    color: white;
+    display: flex;
+    position: absolute;
+    vertical-align: top;
+    text-align: center;
+}
+
+.table__content {
+    margin-top: 150px;    
+}
+
+.table__name{
+    font-size: 12px;
+    text-align:center;
+    color: #5b5b5b;
+    vertical-align:top;
+    margin-left:100px;
+    display:flex;
+}
+
+.tabble {
+    padding-bottom: 10px;
+    background: white;
+    height: 25px;
+    vertical-align: top;
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+}
+
+.btn_work{
+    display:inline-flex;
+
+}
+
+.btn__click {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid gray;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
